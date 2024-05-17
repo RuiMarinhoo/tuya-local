@@ -1,0 +1,24 @@
+name: Pet feeder
+products:
+  - id: d244a57c95e19b0a
+    name: PetFeeder
+primary_entity:
+  entity: sensor
+  name: Status
+  icon: "mdi:paw"
+secondary_entities:
+  - entity: light
+    translation_key: indicator
+    category: config
+    dps:
+      - id: 101
+        type: boolean
+        name: switch
+  - entity: switch
+    name: Flip
+    icon: "mdi:flip-horizontal"
+    category: config
+    dps:
+      - id: 103
+        type: boolean
+        name: switch
