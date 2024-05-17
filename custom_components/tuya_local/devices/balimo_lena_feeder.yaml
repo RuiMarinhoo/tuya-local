@@ -1,6 +1,6 @@
 name: Pet feeder
 products:
-  - id: d244a57c95e19b0a
+  - id: 3taxitiwln9zvkmy
     name: PetFeeder
 primary_entity:
   entity: sensor
